@@ -3,3 +3,4 @@
   * Synchronize ROI with image tag
   * Upload files
   * Write documentation
+  * Program calibration rig and clock tracking demo
