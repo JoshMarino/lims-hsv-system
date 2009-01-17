@@ -2,5 +2,5 @@
 
   * Synchronize ROI with image tag
   * Upload files
-  * Write documentation
+  * ~~Write documentation~~ (Completed 01/17/09 -- used Doxygen)
   * Program calibration rig and clock tracking demo
