@@ -1,0 +1,13 @@
+#summary A guide on how to get the code up and running for the first time.
+#labels Featured,Phase-Deploy
+
+= Introduction =
+
+This section covers the steps required to get the code running in Visual Studio 2K8.  The instructions will mirror the setup on the current desktop that the code has been known to run on.  This does not mean that it will not work with a slightly modified configuration (i.e. Windows Vista vs Windows XP or Visual Studio 2K5 instead of VS2K8).
+
+
+= Requirements =
+  * Intel's OpenCV library
+  * Silicon Software SDK library
+  * Silicon Softwre MicroEnable III (meIII) Frame Grabber
+  * Photonfocus TrackCam MV-1024-Track Camera
