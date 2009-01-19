@@ -9,15 +9,16 @@ This section covers the steps required to get the code running in Visual Studio 
 
 The instructions will mirror the setup on the current desktop that the code has been known to run on.  This does not mean that it will not work with a slightly modified configuration (i.e. Windows Vista vs Windows XP or Visual Studio 2K5 instead of VS2K8).
 
-
 = Requirements =
   * Visual Studio 2008 Express Edition
   * Intel's OpenCV library (v1.0)
   * Silicon Software SDK library (v3.2)
+  * Windows XP SP2
+
+= Required for Online Camera Tracking =
   * Silicon Softwre MicroEnable III (meIII) Frame Grabber
   * Photonfocus MV-D1024-TrackCam ("TrackCam") Camera
   * Photonfocus PFRemote (v2.5)
-  * Windows XP SP2
   * Desktop computer with an available PCI slot
 
 = Installation =
