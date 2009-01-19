@@ -11,10 +11,12 @@ The instructions will mirror the setup on the current desktop that the code has 
 
 
 = Requirements =
+  * Visual Studio 2008 Express Edition
   * Intel's OpenCV library (v1.0)
   * Silicon Software SDK library (v3.2)
   * Silicon Softwre MicroEnable III (meIII) Frame Grabber
   * Photonfocus MV-D1024-TrackCam ("TrackCam") Camera
+  * Photonfocus PFRemote (v2.5)
   * Windows XP SP2
   * Desktop computer with an available PCI slot
 
@@ -26,4 +28,8 @@ Install all hardware as directed by the Photonfocus and Silicon Software manuals
 
 == Software ==
 
-Install Visual Studio, OpenCV, Silicon Software Driver and SDK, and Photonfocus's PFRemote.
+Download and install [http://www.microsoft.com/express/vc/Default.aspx#webInstall Visual Studio 2K8]
+
+Download and install [http://www.photonfocus.com/html/eng/support/software.php PFRemote]
+
+OpenCV, Silicon Software Driver and SDK, and Photonfocus's PFRemote.
