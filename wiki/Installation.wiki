@@ -55,7 +55,7 @@ Now that you have a fully working installation feel free to modify or exclude ma
 = Troubleshooting =
   * *The compiler or linker complains about missing header files or libraries*.  These errors are probably due to custom installation directories, to solve:
     * First, make sure all requirements have been installed properly
-    * In VS2K8 edit the following fields to reflect the actual directories on your system:
+    * In VS2K8 edit the following fields in the Property Pages (_ALT+F7_) to reflect the actual directories on your system:
 || Configuration Property || Sub Property || Field || Value ||
 || C/C++ || General || Additional Include Directories || "C:\Program Files\SiliconSoftware3.2\include";"C:\Program Files\OpenCV\cv\include";"C:\Program Files\OpenCV\cvaux\include";"C:\Program Files\OpenCV\otherlibs\highgui";"C:\Program Files\OpenCV\cvcore\include";"C:\Program Files\OpenCV\cxcore\include" ||
 || Linker || General || Additional Library Directories || "C:\Program Files\OpenCV\lib";"C:\Program Files\SiliconSoftware3.2\lib\visualc" ||
