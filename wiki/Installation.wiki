@@ -49,4 +49,5 @@ Install all hardware as directed by the Photonfocus and Silicon Software manuals
 #define BOUNDING_BOX 128
 }}}
   Change (or define) them as necessary
-  # Press F5 (or Debug->Start Debugging) to run the program.  You should see a visual animation of a white cross appearing and disappearing inside a small 128x128 window.  Press the 'h' key to see instructions on how to use the GUI.  The instructions will appear in the command line window.
+  # Press _F5_ (or Debug->Start Debugging) to run the program.  You should see a visual animation of a white cross appearing and disappearing inside a small 128x128 window.  
+  # Press the '_h_' key to see instructions on how to use the GUI.  The instructions will appear in the command line window.
