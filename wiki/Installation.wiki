@@ -49,3 +49,5 @@ Install all hardware as directed by the Photonfocus and Silicon Software manuals
 }}}
   # Press _F5_ (or Debug->Start Debugging) to run the program.  You should see a visual animation of a white cross appearing and disappearing inside a small 128x128 window.  
   # Press the '_h_' key to see instructions on how to use the GUI.  The instructions will appear in the command line window.
+
+Now that you have a fully working installation feel free to modify or exclude main.cpp, time_run.cpp, and display_run.cpp from the Visual Studio project and build your own code.  Modifying other files may lead to unexpected behavior.
