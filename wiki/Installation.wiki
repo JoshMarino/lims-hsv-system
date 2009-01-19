@@ -29,9 +29,7 @@ Install all hardware as directed by the Photonfocus and Silicon Software manuals
 == Software ==
 
   # Download and install [http://www.microsoft.com/express/vc/Default.aspx#webInstall Visual Studio 2K8]
-
   # Download and install [http://sourceforge.net/project/showfiles.php?group_id=22870&package_id=16937 OpenCV]
-
   # Download and install [http://www.silicon-software.com/download.html#_mE3 meIII Driver and Software]
-
   # Download and install [http://www.photonfocus.com/html/eng/support/software.php PFRemote]
+  # Download the [Source source code]
