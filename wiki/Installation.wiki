@@ -3,11 +3,27 @@
 
 = Introduction =
 
-This section covers the steps required to get the code running in Visual Studio 2K8.  The instructions will mirror the setup on the current desktop that the code has been known to run on.  This does not mean that it will not work with a slightly modified configuration (i.e. Windows Vista vs Windows XP or Visual Studio 2K5 instead of VS2K8).
+This section covers the steps required to get the code running in Visual Studio 2K8.
+
+= Quick Note =
+
+The instructions will mirror the setup on the current desktop that the code has been known to run on.  This does not mean that it will not work with a slightly modified configuration (i.e. Windows Vista vs Windows XP or Visual Studio 2K5 instead of VS2K8).
 
 
 = Requirements =
-  * Intel's OpenCV library
-  * Silicon Software SDK library
+  * Intel's OpenCV library (v1.0)
+  * Silicon Software SDK library (v3.2)
   * Silicon Softwre MicroEnable III (meIII) Frame Grabber
-  * Photonfocus TrackCam MV-1024-Track Camera
+  * Photonfocus MV-D1024-TrackCam ("TrackCam") Camera
+  * Windows XP SP2
+  * Desktop computer with an available PCI slot
+
+= Installation =
+
+== Hardware ==
+
+Install all hardware as directed by the Photonfocus and Silicon Software manuals.
+
+== Software ==
+
+Install Visual Studio, OpenCV, Silicon Software Driver and SDK, and Photonfocus's PFRemote.
