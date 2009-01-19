@@ -25,7 +25,7 @@ The instructions will mirror the setup on the current desktop that the code has 
 
 == Hardware ==
 
-Install all hardware as directed by the Photonfocus and Silicon Software manuals.
+Install all hardware as directed by the [ http://www.photonfocus.com/upload/manuals/user_manual_MV-D1024-Trackcam_REV_1_1.pdf Photonfocus] and [http://www.silicon-software.com/download.html#_mE3 Silicon Software] manuals.
 
 == Software ==
 
