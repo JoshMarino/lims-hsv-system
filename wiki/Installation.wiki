@@ -38,7 +38,7 @@ Install all hardware as directed by the [http://www.photonfocus.com/upload/manua
 == Verifying Installation ==
   # Open Moments.sln (this will load the project into VS2K8)
   # Open fcdynamic.h in the "Header Files" folder found in the Solution Explorer side window
-  # Make sure there is a line that reads, if not, change (or define) ONLINE to 0 (zero).
+  # If there is no camera attached to the system, then make sure there is a line that reads:
 {{{
 #define ONLINE 0
 }}}
