@@ -33,3 +33,20 @@ Install all hardware as directed by the Photonfocus and Silicon Software manuals
   # Download and install [http://www.silicon-software.com/download.html#_mE3 meIII Driver and Software]
   # Download and install [http://www.photonfocus.com/html/eng/support/software.php PFRemote]
   # Checkout the [http://code.google.com/p/lims-hsv-system/source/checkout source code]
+
+== Verifying Installation ==
+  # Open Moments.sln (this will load the project into VS2K8)
+  # Open fcdynamic.h in the "Header Files" folder found in the Solution Explorer side window
+  # Make sure there is a line that reads 
+{{{
+#define ONLINE 0
+}}}
+  If not, change (or define) ONLINE to 0 (zero).
+  # Open main.cpp in the folder "Source Files" and make sure the following lines read:
+{{{
+#define TIMING 0
+#define RECORDING 0
+#define BOUNDING_BOX 128
+}}}
+  Change (or define) them as necessary
+  # Press F5 (or Debug->Start Debugging) to run the program.  You should see a visual animation of a white cross appearing and disappearing inside a small 128x128 window.  Press the 'h' key to see instructions on how to use the GUI.  The instructions will appear in the command line window.
