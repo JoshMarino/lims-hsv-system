@@ -61,3 +61,9 @@ Now that you have a fully working installation feel free to modify or exclude ma
 || Linker || General || Additional Library Directories || "C:\Program Files\OpenCV\lib";"C:\Program Files\SiliconSoftware3.2\lib\visualc" ||
 || Linker || Input || Additional Dependencies || cv.lib cvcam.lib highgui.lib cxcore.lib cvaux.lib fglib3.1.lib display_lib.lib fastconfig.lib clsersisome3.lib clserme3.lib ||
 || Linker || Input || Ignore Specific Library || libmmdd.lib ||
+
+  * *The camera is installed correctly, but sometimes it hangs and no images are captured.  In fact, the timeout error code is being returned.*  This error is common when an incorrect parameter has been sent to the Photonfocus camera (e.g. width or ROIPos_X is a non-multiple of 4 or width is < 8), to solve:
+    # Close all running applications that have access to the camera or frame grabber.
+    # Launch PFRemote from the Desktop and reset the camera to its factory defaults.
+    # Optionally, see if the camera is working normally in the MicroDisplay application, which is part of the Silicon Software SDK + Driver installation.
+    # Rerun your program.  It should now work.
