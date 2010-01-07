@@ -8,5 +8,5 @@ The page is meant to keep track of ideas, links, notes, etc. regarding RTAI and 
 = Details =
 
 RTAI Hardware:
-* May need to use Redhat Linux to install meIII software
-* RTAI/Linux the Measurement Instrument cards in the lab: DDA08/12 and DAS1602/12.  You can find the full list of supported measurement hardware, including NI cards, [http://www.comedi.org/hardware.html here].
+  * May need to use Redhat Linux to install meIII software
+  * RTAI/Linux the Measurement Instrument cards in the lab: DDA08/12 and DAS1602/12.  You can find the full list of supported measurement hardware, including NI cards, [http://www.comedi.org/hardware.html here].
