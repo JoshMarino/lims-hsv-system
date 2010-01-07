@@ -6,7 +6,7 @@ The page is meant to keep track of ideas, links, notes, etc. regarding RTAI and 
 
 
 = Details =
-The Linux Journal has an [http://www.linuxjournal.com/article/5904 overview] of Linux real-time systems and a comparison of real-time packages.
+The Linux Journal has an overview ([http://www.linuxjournal.com/article/232 1], [http://www.linuxjournal.com/article/5742 2], [http://www.linuxjournal.com/article/5904 3]) of Linux real-time systems and a comparison of real-time packages.
 
 
 RTAI Hardware:
