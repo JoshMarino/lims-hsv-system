@@ -6,7 +6,10 @@ The page is meant to keep track of ideas, links, notes, etc. regarding RTAI and 
 
 
 = Details =
+The Linux Journal has an [http://www.linuxjournal.com/article/5904 overview] of Linux real-time systems and a comparison of real-time packages.
+
 
 RTAI Hardware:
   * May need to use Redhat Linux to install meIII software, because of the RPM files.
   * RTAI/Linux the Measurement Instrument cards in the lab: PCI-DDA08/12 and PCI-DAS1602/12.  You can find the full list of supported measurement hardware, including NI cards, [http://www.comedi.org/hardware.html here].
+  * Interesting [http://forums.ni.com/ni/board/message?board.id=280&thread.id=967 thread] on NI forum on issues to consider when adding hardware to RTAI.
