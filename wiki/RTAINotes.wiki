@@ -11,7 +11,9 @@ The Linux Journal has an overview ([http://www.linuxjournal.com/article/232 1], 
 
 RTAI Compatible Hardware:
   * May need to use Redhat Linux to install meIII software, because of the RPM files.
-  * RTAI/Linux the Measurement Instrument cards in the lab: PCI-DDA08/12 and PCI-DAS1602/12.  You can find the full list of supported measurement hardware, including NI cards, [http://www.comedi.org/hardware.html here].
+  * RTAI/Linux supports the Measurement Instrument cards in the lab: PCI-DDA08/12 and PCI-DAS1602/12.  You can find the full list of supported measurement hardware, including NI cards, [http://www.comedi.org/hardware.html here].
   * Interesting [http://forums.ni.com/ni/board/message?board.id=280&thread.id=967 thread] on NI forum on issues to consider when adding hardware to RTAI.
 
 Plausible Redhat Linux install [https://www.rtai.org/RTAILAB/RTAI-TARGET-HOWTO.txt instructions] from rtai.org.
+
+The Linux Boot process and info on initrd from IBM: ([http://www.ibm.com/developerworks/linux/library/l-linuxboot/ 1], [http://www.ibm.com/developerworks/linux/library/l-initrd.html 2])
