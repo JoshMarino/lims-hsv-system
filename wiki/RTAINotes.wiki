@@ -19,3 +19,5 @@ Plausible Redhat Linux install [https://www.rtai.org/RTAILAB/RTAI-TARGET-HOWTO.t
 The Linux Boot process and info on initrd from IBM: ([http://www.ibm.com/developerworks/linux/library/l-linuxboot/ 1], [http://www.ibm.com/developerworks/linux/library/l-initrd.html 2])
 
 The different Linux [http://www.ibm.com/developerworks/linux/library/l-real-time-linux/ real-time approaches]
+
+It appears that our new rtos will be the [http://rt.wiki.kernel.org/index.php/Main_Page pre-emptible kernel] at kernel.org.
