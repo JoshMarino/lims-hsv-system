@@ -23,14 +23,14 @@
 #define FRAME_STEP 10
 #define EXPOSURE_STEP 4
 
-// INITIAL BLOB POSITION IN IMG COORD FRAME6
+// INITIAL BLOB POSITION IN IMG COORD FRAME
 #define INITIAL_ROI_X 0
 #define INITIAL__ROI_Y 0
 #define BOUNDING_BOX 1024
-#define INITIAL_BLOB_XMIN 0
-#define INITIAL_BLOB_YMIN 0
-#define INITIAL_BLOB_WIDTH 1024
-#define INITIAL_BLOB_HEIGHT 1024
+#define INITIAL_BLOB_XMIN (404+45)
+#define INITIAL_BLOB_YMIN (731+56)
+#define INITIAL_BLOB_WIDTH 25
+#define INITIAL_BLOB_HEIGHT 20
 #define THRESHOLD 128
 
 #define SEQ {ROI_0, ROI_5}
@@ -186,5 +186,6 @@ int main(int argc, char *argv[])
 		_getch();
 	}
 #endif
+
 	return rc;
 }
