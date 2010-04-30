@@ -36,7 +36,7 @@ Install all hardware as directed by the [http://www.photonfocus.com/upload/manua
   # Checkout the [http://code.google.com/p/lims-hsv-system/source/checkout source code]
 
 == Verifying Installation ==
-  # Open Moments.sln (this will load the project into VS2K8)
+  # Open GUIAndTiming.sln (this will load the project into VS2K8) in the GUIAndTiming folder
   # If there is *no* camera attached to the system, then open fcdynamic.h in the "Header Files" folder found in the Solution Explorer side window and make sure there is a line that reads:
 {{{
 #define ONLINE 0
